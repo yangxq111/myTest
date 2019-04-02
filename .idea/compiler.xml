@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ChenSheng" />
+        <module name="music" />
+        <module name="myweb" />
+        <module name="platform-admin" />
+        <module name="platform-api" />
+        <module name="platform-common" />
+        <module name="platform-framework" />
+        <module name="platform-gen" />
+        <module name="platform-schedule" />
+        <module name="platform-shop" />
+        <module name="printlog" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chd-oa" target="1.5" />
+      <module name="chd-oa-webapp" target="1.5" />
+      <module name="ChenSheng" target="1.8" />
+      <module name="jeesite-demo" target="1.8" />
+      <module name="jeesite-parent" target="1.7" />
+      <module name="jeesiteDemo" target="1.6" />
+      <module name="myweb" target="1.8" />
+      <module name="platform" target="1.8" />
+      <module name="platform-admin" target="1.8" />
+      <module name="platform-api" target="1.8" />
+      <module name="platform-common" target="1.8" />
+      <module name="platform-framework" target="1.8" />
+      <module name="platform-gen" target="1.8" />
+      <module name="platform-schedule" target="1.8" />
+      <module name="platform-shop" target="1.8" />
+      <module name="printlog" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

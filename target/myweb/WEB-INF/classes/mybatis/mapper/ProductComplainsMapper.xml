@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huishu.productcomplains.mapper.ProductComplainsMapper" >
+    <resultMap id="BaseResultMap" type="com.huishu.productcomplains.model.ProductComplains" >
+        <id column="id" property="id" jdbcType="VARCHAR" />
+        <result column="username" property="username" jdbcType="VARCHAR" />
+        <result column="nickname" property="nickname" jdbcType="VARCHAR" />
+        <result column="sex" property="sex" jdbcType="VARCHAR" />
+        <result column="age" property="age" jdbcType="VARCHAR" />
+        <result column="telphone" property="telphone" jdbcType="VARCHAR" />
+        <result column="complains_time" property="complainsTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id, username, nickname, sex, age, telphone, complains_time
+    </sql>
+
+    <select id="getProductComplainsList" resultMap="BaseResultMap"  >
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM t_product_complains
+    </select>
+
+    <select id="getProductComplainsById" parameterType="java.lang.String" resultMap="BaseResultMap" >
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM t_product_complains
+        WHERE id = #{id}
+    </select>
+
+    <!-- <insert id="add" parameterType="cn.saytime.bean.User" >
+        INSERT INTO
+        tb_user
+        (username,age,ctm)
+        VALUES
+        (#{username}, #{age}, now())
+    </insert> -->
+
+    <!-- <update id="update" parameterType="java.util.Map" >
+        UPDATE
+        tb_user
+        SET
+        username = #{user.username},age = #{user.age}
+        WHERE
+        id = #{id}
+    </update> -->
+
+    <delete id="delete" parameterType="java.lang.String" >
+        DELETE FROM
+        t_product_complains
+        WHERE
+        id = #{id}
+    </delete>
+</mapper>

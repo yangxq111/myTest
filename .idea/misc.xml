@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$USER_HOME$/git/jeesite4/jeesite4/jeesite4" />
+    <file type="web" url="file://$USER_HOME$/git/platform/platform-admin" />
+    <file type="web" url="file://$USER_HOME$/git/platform/platform-framework" />
+    <file type="web" url="file://$USER_HOME$/git/platform/platform-shop" />
+    <file type="web" url="file://$USER_HOME$/git/springWebsockeForTomcatLog" />
+    <file type="web" url="file://$USER_HOME$/svn/OA一期/chd-oa-webapp" />
+    <file type="web" url="file://D:/eclipse/workspace/music_controller" />
+    <file type="web" url="file://D:/git/git/jeesite" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://D:/IdeaProjects/items" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="D:/git/git/spring-cloud-config/pom.xml" />
+        <option value="D:/eclipse/workspace/music_controller/pom.xml" />
+        <option value="$USER_HOME$/git/platform/pom.xml" />
+        <option value="$USER_HOME$/git/springWebsockeForTomcatLog/pom.xml" />
+        <option value="$USER_HOME$/git/printlog/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/svn/OA一期/chd-oa-webapp/pom.xml" />
+        <option value="$USER_HOME$/svn/OA一期/pom.xml" />
+        <option value="D:/git/git/spring-cloud-config/pom.xml" />
+        <option value="D:/git/git/spring-cloud-config/spring-cloud-config-client/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>

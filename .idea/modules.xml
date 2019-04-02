@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/git/springWebsockeForTomcatLog/ChenSheng.iml" filepath="$USER_HOME$/git/springWebsockeForTomcatLog/ChenSheng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myweb.iml" filepath="$PROJECT_DIR$/myweb.iml" />
+      <module fileurl="file://$USER_HOME$/git/platform/platform.iml" filepath="$USER_HOME$/git/platform/platform.iml" />
+      <module fileurl="file://$USER_HOME$/git/platform/platform-admin/platform-admin.iml" filepath="$USER_HOME$/git/platform/platform-admin/platform-admin.iml" />
+      <module fileurl="file://$USER_HOME$/git/platform/platform-api/platform-api.iml" filepath="$USER_HOME$/git/platform/platform-api/platform-api.iml" />
+      <module fileurl="file://$USER_HOME$/git/platform/platform-common/platform-common.iml" filepath="$USER_HOME$/git/platform/platform-common/platform-common.iml" />
+      <module fileurl="file://$USER_HOME$/git/platform/platform-framework/platform-framework.iml" filepath="$USER_HOME$/git/platform/platform-framework/platform-framework.iml" />
+      <module fileurl="file://$USER_HOME$/git/platform/platform-gen/platform-gen.iml" filepath="$USER_HOME$/git/platform/platform-gen/platform-gen.iml" />
+      <module fileurl="file://$USER_HOME$/git/platform/platform-schedule/platform-schedule.iml" filepath="$USER_HOME$/git/platform/platform-schedule/platform-schedule.iml" />
+      <module fileurl="file://$USER_HOME$/git/platform/platform-shop/platform-shop.iml" filepath="$USER_HOME$/git/platform/platform-shop/platform-shop.iml" />
+      <module fileurl="file://$USER_HOME$/git/printlog/printlog.iml" filepath="$USER_HOME$/git/printlog/printlog.iml" />
+    </modules>
+  </component>
+</project>
